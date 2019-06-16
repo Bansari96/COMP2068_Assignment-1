@@ -1,0 +1,14 @@
+mixin NavItem(name)
+  li.nav-item
+    a.nav-link(href=`/${name.toLowerCase()}`)= name
+
+nav.navbar-expand-lg.navbar-dark.bg-primary
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') Bansari Patel
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarTogglerDemo03.collapse.navbar-collapse
+    ul.navbar-nav.ml-auto
+      - var names = ['Home', 'About', 'Projects', 'Services', 'Contact']
+      for name in names
+        +NavItem(name)
