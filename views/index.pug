@@ -1,8 +1,19 @@
 extends layout
 
 block content
-  .container.my-5.text-left
-    img.rounded.float-left(src='images/profile.jpg',alt='Bansari patel',height='200px',width='200px')
-  .col-6
-    h4
-    | Bansari Patel
+  .container
+    .row
+      .col-4
+        .container.my-5.text-left
+          img.img-fluid.rounded.float-left(src='images/profile.jpg',alt='Bansari patel',height='auto',width='350px')
+      .col-8
+        h1.display-4.mt-5
+          | Hello,
+          br
+          |I am Bansari Patel
+        h5
+          | Web Developer
+        p
+          | I am a Web developer. I love programming with Java and ASP.NET. I am passionate about creating and manipulating databases with SQL and MySQL.
+
+
