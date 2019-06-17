@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 241, 241);
+  color: white;
+  text-align: center;
+}
