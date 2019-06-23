@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container-fluid
+    .jumbotron
+      .row
+        .col-md-4
+          h2 Lighting Cube
+          p
+          | A Lighting Cube(4x4x4) made with Arduino UNO IDE. Made a lighting cube with 64 LED lights. Perform some zig-zag and circular pattern.   
+          p
+          img.img-fluid.rounded.float-left(src='images/lighting _cube.jpg',alt='Lighting Cube',height='200px',width='200px')
+        .col-md-4
+          h2 Sales Support for interactive Marketing
+          p
+          | A shopping web application which contains easy access to old and new products and featured with four concepts called Bargaining (Only for old products), AMC (Annual Maintenance Contract), Buyback offer and Insurance.
+          p
+          a(href='https://www.tutorialrepublic.com/css-tutorial/' target='_blank')
+        .col-md-4
+          h2 Library Management System
+          p
+          | Library management system is ASP.NET based web application. It has Books and Categoris links which shows the books detalis. Also have register and login links with authorization. 
+          p
+          a.btn.btn-success(href='https://libmanagementsystem.azurewebsites.net/' target='_blank') View More &raquo;

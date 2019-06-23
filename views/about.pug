@@ -1,5 +1,20 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .row
+  h1.display-4.mt-5
+   |Technical Assets
+   .bs-example
+     h4 Java
+     .progress
+       .progress-bar.bg-info(style='width: 90%')
+     h4 .NET
+     .progress
+       .progress-bar.bg-success(style='width: 80%')
+     h4 JavaScript
+     .progress
+       .progress-bar.bg-warning(style='width: 60%')
+     h4 SQL/MySQL
+     .progress
+       .progress-bar.bg-danger(style='width: 85%')
+

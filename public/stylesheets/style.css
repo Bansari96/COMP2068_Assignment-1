@@ -3,10 +3,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -15,4 +11,31 @@ a {
   background-color: rgb(243, 241, 241);
   color: white;
   text-align: center;
+}
+
+.bs-example{
+  margin: 20px;        
+}
+.progress{
+  margin-bottom: 1rem;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github{
+  background: white;
+  color: #333
 }
